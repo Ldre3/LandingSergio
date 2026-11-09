@@ -1,0 +1,6 @@
+.git
+Imagenes
+worker.mjs
+wrangler.jsonc
+*.test.mjs
+.assetsignore

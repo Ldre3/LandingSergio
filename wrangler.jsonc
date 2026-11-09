@@ -1,0 +1,9 @@
+{
+  "name": "landingsergio",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-09",
+  "assets": {"directory": ".", "binding": "ASSETS", "run_worker_first": ["/", "/api/*", "/admin*", "/healthz", "/__status", "/app.js", "/style.css", "/logo.svg", "/_portal/*"]},
+  "routes": [{"pattern":"abrodesmedia.com", "custom_domain":true},{"pattern":"subidas.abrodesmedia.com/*", "zone_name":"abrodesmedia.com"}],
+  "limits": {"cpu_ms": 10},
+  "observability": {"enabled": false}
+}
