@@ -1,6 +1,7 @@
-.git
-Imagenes
-worker.mjs
-wrangler.jsonc
-*.test.mjs
-.assetsignore
+/.git/**
+/.wrangler/**
+/Imagenes/**
+/worker.mjs
+/wrangler.jsonc
+/*.test.mjs
+/.assetsignore
