@@ -14,7 +14,9 @@
       "/app.js",
       "/style.css",
       "/logo.svg",
-      "/_portal/*"
+      "/_portal/*",
+      "/s/*",
+      "/share.js"
     ]
   },
   "routes": [
